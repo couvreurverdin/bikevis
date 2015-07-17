@@ -57,7 +57,7 @@ shinyUI(navbarPage("Impact of Bikeability on road collisions",
                             titlePanel(""),
                             verticalLayout(
                               wellPanel(
-                                 radioButtons("var", label = h3("Choose the graph"),  choices = list("Bikeability delivery rate against collisons rate" = "Other", "Local authorities sorted by Bikeability delivery rate" = "Bikeability", "Local authorities sorted by collisions rate" = "Accidents"),
+                                 radioButtons("var", label = h3("Choose the graph"),  choices = list("Bikeability delivery rate against collisions rate" = "Other", "Local authorities sorted by Bikeability delivery rate" = "Bikeability", "Local authorities sorted by collisions rate" = "Accidents"),
                                                selected = "Other"),
                                  hr(),
                                  h3("Explanations"),
